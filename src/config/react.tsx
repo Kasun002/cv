@@ -4,6 +4,7 @@
 const resumeAngular = {
     firstName: 'Juan David',
     lastName: 'Nicholls',
+    address: 'Colombo, Sri Lanka',
     jobTitle: 'Full Stack Developer, Open Source Contributor',
     city: 'Medellin',
     postalCode: '050023',
