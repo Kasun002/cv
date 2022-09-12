@@ -1,7 +1,7 @@
 /**
  * Resume/CV template created with Bootstrap 5 by @vmoratog and @jdnichollsc
  */
-const resumeReact = {
+const resumeAngular = {
     firstName: 'Juan David',
     lastName: 'Nicholls',
     jobTitle: 'Full Stack Developer, Open Source Contributor',
@@ -138,7 +138,20 @@ const resumeReact = {
             ]
         }
     ],
+    projects: [
+        {
+            projectTitle: 'Tech Lead / Full-Stack Developer',
+            startDate: 'May 2021',
+            endDate: 'Present',
+            role: 'Zagalabs',
+            achievements: [
+                'Led code refactors using best practices with Angular & NgRx to improve code reusability from web and mobile apps.',
+                'Created demos and collaborated with the team for integrations with third-party providers like Uber Eats.'
+            ]
+        },
+        
+    ],
     photo: 'https://s3.eu-west-1.amazonaws.com/resumedone-eu-west-1/AxajI58Ph-photo.png',
 }
 
-export default resumeReact;
+export default resumeAngular;
