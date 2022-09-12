@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
-
 * {
   font-family: Raleway;
   box-sizing: border-box;
@@ -7,8 +6,8 @@
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+          text-size-adjust: 100%;
   outline: none !important;
 }
 
@@ -80,7 +79,6 @@ p {
   margin-top: 4.51385rem;
   color: rgb(41, 41, 41);
 }
-
 .jobTitle span {
   padding-left: 1rem;
   letter-spacing: 0.710932rem;
@@ -96,7 +94,7 @@ p {
   height: 27.2rem;
   max-height: 270px;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
 }
 
 .middleLine {
@@ -127,7 +125,6 @@ a p {
   padding-bottom: 2.03123rem;
   margin-right: 1rem;
 }
-
 .list-item:not(:last-child) {
   border-bottom: 0.225693rem solid rgb(35, 31, 32);
 }
@@ -153,11 +150,9 @@ a p {
 .bullet {
   position: relative;
 }
-
 .bullet i {
   font-size: 2.6rem;
 }
-
 .bullet:before {
   content: "";
   position: absolute;
@@ -171,7 +166,6 @@ a p {
 .record {
   padding-top: 2rem;
 }
-
 .record p {
   width: 100%;
   font-size: 2.7rem;
@@ -225,19 +219,14 @@ span {
     size: A4;
     margin: 0mm !important;
   }
-
   html {
     font-size: 23%;
   }
-
   .header {
     padding-top: 12rem;
     padding-bottom: 9rem;
   }
-
   ul li {
     margin-left: 1rem;
   }
-}
-
-/*# sourceMappingURL=cv.css.map */
+}/*# sourceMappingURL=cv.css.map */
