@@ -41,8 +41,7 @@ const resumeReact = {
   ],
   languages: ["English (Read & Write Fluently)", "Sinhalese"],
   professionalSummary: [
-    "Detail-oriented professional with exceptional interpersonal skills, team working abilities with 7 years of work experience in Software Engineering field.",
-    "As well as motivated individual with in-depth knowledge of front-end web design & (React, Angular 2+), Hybrid mobile app design & development (Ionic, Cordova, React Native) and some experience in BE development using Node JS, Java Firebase & .net.",
+    "Detail-oriented professional with exceptional interpersonal skills, team working abilities with 7 years of work experience in Software Engineering field. As well as motivated individual with in-depth knowledge of front-end web design & development using (React, Angular 2+), Hybrid mobile app design & development (Ionic, Cordova, React Native) and some experience in BE development using Node JS, Java Firebase & .net.",
   ],
   employmentHistory: employments,
   projectHistory: projects,

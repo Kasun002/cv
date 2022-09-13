@@ -224,14 +224,14 @@ const CVReact = () => {
                 </div>
                 <div className="col">
                   {resumeConfig.professionalSummary.map(
-                          (summaryLine: any, summaryIndex: number) => {
-                            return (
-                              <p className="mb-0" key={summaryIndex}>
-                                • {summaryLine}
-                              </p>
-                            );
-                          }
-                        )}
+                    (summaryLine: any, summaryIndex: number) => {
+                      return (
+                        <p className="mb-0" key={summaryIndex}>
+                          • {summaryLine}
+                        </p>
+                      );
+                    }
+                  )}
                 </div>
               </div>
               <div className="row mt-5">
@@ -260,7 +260,7 @@ const CVReact = () => {
                             {employment.endDate}
                           </span>
                         </p>
-                        <p className="text-lowercase fst-italic fw-bold">
+                        <p className="fst-italic fw-bold">
                           {employment.employer}, {employment.city}
                         </p>
                       </div>
@@ -285,13 +285,13 @@ const CVReact = () => {
                       </div>
                       <div className="col">
                         <p className="text-uppercase fw-bold position-relative">
-                          {project.jobTitle}
+                          {project.projectTitle}
                           <span>
                             &nbsp;|&nbsp;{project.startDate} - {project.endDate}
                           </span>
                         </p>
-                        <p className="text-lowercase fst-italic fw-bold">
-                          {project.employer}, {project.city}
+                        <p className="fst-italic fw-bold float-right">
+                          {project.role}
                         </p>
                         {project.achievements.map(
                           (achievement: any, achievementsIndex: number) => {
