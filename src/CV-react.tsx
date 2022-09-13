@@ -69,7 +69,7 @@ const CVReact = () => {
                   </div>
                 </div>
                 <div className="col">
-                  <a href="'tel:'+ phone" className="text-decoration-none">
+                  <a href={`tel:${resumeConfig.phone}`} className="text-decoration-none">
                     <p>{resumeConfig.phone}</p>
                   </a>
                 </div>
@@ -85,7 +85,7 @@ const CVReact = () => {
                   </div>
                 </div>
                 <div className="col">
-                  <a href="'mailto:'+ email" className="text-decoration-none">
+                  <a href={`mailto:${resumeConfig.email}`} className="text-decoration-none">
                     <p>{resumeConfig.email}</p>
                   </a>
                 </div>
