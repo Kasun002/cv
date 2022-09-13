@@ -6,7 +6,7 @@ const projects = [
     role: "Associate tech lead",
     achievements: [
       "On-demand parcel courier app offers a convenient way to track your packages online",
-      "Application consist two main parts Client-Web and Back-office Web.Both parts developed using React with MUI and redux with type script and Back-End use Spring boot and MySQL. Play ATL role for web-client development in React.",
+      "Application consist two main parts Client-Web and Back-office Web.Both parts developed using React with MUI and redux with type script and Back-End use Spring boot and MySQL. Playing ATL role for web-client development.",
     ],
   },
   {
@@ -100,7 +100,7 @@ const projects = [
     ],
   },
   {
-    projectTitle: "BoxRunner (Logistics & e-business.)",
+    projectTitle: "BoxRunner (Logistics & e-business)",
     startDate: "Aug 2015",
     endDate: "June 2016",
     role: "Associate Software Engineer/Software Engineer",

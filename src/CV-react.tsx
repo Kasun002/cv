@@ -28,10 +28,7 @@ const CVReact = () => {
                 <span className="text-break">{resumeConfig.jobTitle}</span>
               </p>
             </div>
-            <div
-              v-if="!!photo"
-              className="col-auto d-none d-lg-block d-print-block"
-            >
+            <div className="col-auto d-none d-lg-block d-print-block">
               <img
                 src={resumeConfig.photo}
                 className="photo border border-2 border-dark rounded-circle img-fluid float-end img-thumbnail"
@@ -104,11 +101,7 @@ const CVReact = () => {
               {resumeConfig.education.map(
                 (educationRow: any, educationRowIndex: number) => {
                   return (
-                    <div
-                      className="row record"
-                      v-for="e in education"
-                      key={educationRowIndex}
-                    >
+                    <div className="row record" key={educationRowIndex}>
                       <div className="col-auto bullet">
                         <i className="bi bi-record-circle"></i>
                       </div>
@@ -156,9 +149,10 @@ const CVReact = () => {
                     <div className="row" key={skillIndex}>
                       <div className="col">
                         <ul className="ms-2">
-                          <li className="pb-2" v-for="skill in skills">
-                            {skill}
-                          </li>
+                          <li
+                            className="pb-2"
+                            dangerouslySetInnerHTML={{ __html: skill }}
+                          ></li>
                         </ul>
                       </div>
                     </div>
@@ -177,9 +171,7 @@ const CVReact = () => {
                     <div className="row" key={skillIndex}>
                       <div className="col">
                         <ul className="ms-2">
-                          <li className="pb-2" v-for="skill in skills">
-                            {skill}
-                          </li>
+                          <li className="pb-2">{skill}</li>
                         </ul>
                       </div>
                     </div>
@@ -187,7 +179,7 @@ const CVReact = () => {
                 }
               )}
               <p
-                style={{ pageBreakBefore: "always", paddingTop: "17.8297rem" }}
+                style={{ pageBreakBefore: "always", paddingTop: "11.8297rem" }}
               ></p>
               <div className="row mt-5 me-5">
                 <div className="col p-0">
@@ -200,9 +192,50 @@ const CVReact = () => {
                     <div className="row" key={languageIndex}>
                       <div className="col">
                         <ul className="ms-2">
-                          <li className="pb-2" v-for="language in languages">
-                            {language}
-                          </li>
+                          <li className="pb-2">{language}</li>
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                }
+              )}
+
+              <div className="row mt-5 me-5">
+                <div className="col p-0">
+                  <p className="title">Interests</p>
+                </div>
+              </div>
+              {resumeConfig.interests.map(
+                (interest: any, interestIndex: number) => {
+                  return (
+                    <div className="row" key={interestIndex}>
+                      <div className="col">
+                        <ul className="ms-2">
+                          <li
+                            className="pb-2"
+                            dangerouslySetInnerHTML={{ __html: interest }}
+                          ></li>
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                }
+              )}
+              <div className="row mt-5 me-5">
+                <div className="col p-0">
+                  <p className="title">Referees</p>
+                </div>
+              </div>
+              {resumeConfig.referees.map(
+                (referee: any, refereeIndex: number) => {
+                  return (
+                    <div className="row" key={refereeIndex}>
+                      <div className="col">
+                        <ul className="ms-2">
+                          <li
+                            className="pb-2"
+                            dangerouslySetInnerHTML={{ __html: referee }}
+                          ></li>
                         </ul>
                       </div>
                     </div>
