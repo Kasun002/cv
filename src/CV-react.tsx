@@ -186,7 +186,9 @@ const CVReact = () => {
                   );
                 }
               )}
-              <p style={{ pageBreakBefore: "always" }}></p>
+              <p
+                style={{ pageBreakBefore: "always", paddingTop: "17.8297rem" }}
+              ></p>
               <div className="row mt-5 me-5">
                 <div className="col p-0">
                   <p className="title">Languages</p>
@@ -279,31 +281,47 @@ const CVReact = () => {
               {resumeConfig.projectHistory.map(
                 (project: any, projectIndex: number) => {
                   return (
-                    <div className="row record mb-4 bullet" key={projectIndex}>
-                      <div className="col-auto">
-                        <i className="bi bi-record-circle"></i>
+                    <>
+                      <div
+                        className="row record mb-4 bullet"
+                        key={projectIndex}
+                      >
+                        <div className="col-auto">
+                          <i className="bi bi-record-circle"></i>
+                        </div>
+                        <div className="col">
+                          <p className="text-uppercase fw-bold position-relative">
+                            {project.projectTitle}
+                            <span>
+                              &nbsp;|&nbsp;{project.startDate} -{" "}
+                              {project.endDate}
+                            </span>
+                          </p>
+                          <p className="fst-italic fw-bold float-right">
+                            {project.role}
+                          </p>
+                          {project.achievements.map(
+                            (achievement: any, achievementsIndex: number) => {
+                              return (
+                                <p className="mb-0" key={achievementsIndex}>
+                                  • {achievement}
+                                </p>
+                              );
+                            }
+                          )}
+                        </div>
                       </div>
-                      <div className="col">
-                        <p className="text-uppercase fw-bold position-relative">
-                          {project.projectTitle}
-                          <span>
-                            &nbsp;|&nbsp;{project.startDate} - {project.endDate}
-                          </span>
-                        </p>
-                        <p className="fst-italic fw-bold float-right">
-                          {project.role}
-                        </p>
-                        {project.achievements.map(
-                          (achievement: any, achievementsIndex: number) => {
-                            return (
-                              <p className="mb-0" key={achievementsIndex}>
-                                • {achievement}
-                              </p>
-                            );
-                          }
-                        )}
-                      </div>
-                    </div>
+                      {projectIndex === 2 ? (
+                        <p
+                          style={{
+                            pageBreakBefore: "always",
+                            paddingTop: "17.8297rem",
+                          }}
+                        ></p>
+                      ) : (
+                        <></>
+                      )}
+                    </>
                   );
                 }
               )}
