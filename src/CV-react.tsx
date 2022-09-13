@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import resumeReact from "./config/react";
+import resumeReact from "./config/react/react";
 
 import "./styles.scss";
 
@@ -69,7 +69,10 @@ const CVReact = () => {
                   </div>
                 </div>
                 <div className="col">
-                  <a href={`tel:${resumeConfig.phone}`} className="text-decoration-none">
+                  <a
+                    href={`tel:${resumeConfig.phone}`}
+                    className="text-decoration-none"
+                  >
                     <p>{resumeConfig.phone}</p>
                   </a>
                 </div>
@@ -85,7 +88,10 @@ const CVReact = () => {
                   </div>
                 </div>
                 <div className="col">
-                  <a href={`mailto:${resumeConfig.email}`} className="text-decoration-none">
+                  <a
+                    href={`mailto:${resumeConfig.email}`}
+                    className="text-decoration-none"
+                  >
                     <p>{resumeConfig.email}</p>
                   </a>
                 </div>
@@ -141,22 +147,46 @@ const CVReact = () => {
               })}
               <div className="row mt-5 me-5">
                 <div className="col p-0">
-                  <p className="title">Skills</p>
+                  <p className="title">Tech Stack</p>
                 </div>
               </div>
-              {resumeConfig.skills.map((skill: any, skillIndex: number) => {
-                return (
-                  <div className="row" key={skillIndex}>
-                    <div className="col">
-                      <ul className="ms-2">
-                        <li className="pb-2" v-for="skill in skills">
-                          {skill}
-                        </li>
-                      </ul>
+              {resumeConfig.technicalSkills.map(
+                (skill: any, skillIndex: number) => {
+                  return (
+                    <div className="row" key={skillIndex}>
+                      <div className="col">
+                        <ul className="ms-2">
+                          <li className="pb-2" v-for="skill in skills">
+                            {skill}
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                  </div>
-                );
-              })}
+                  );
+                }
+              )}
+
+              <div className="row mt-5 me-5">
+                <div className="col p-0">
+                  <p className="title">Soft Skills</p>
+                </div>
+              </div>
+              {resumeConfig.professionalSkills.map(
+                (skill: any, skillIndex: number) => {
+                  return (
+                    <div className="row" key={skillIndex}>
+                      <div className="col">
+                        <ul className="ms-2">
+                          <li className="pb-2" v-for="skill in skills">
+                            {skill}
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                }
+              )}
+              <p style={{ pageBreakBefore: "always" }}></p>
               <div className="row mt-5 me-5">
                 <div className="col p-0">
                   <p className="title">Languages</p>
@@ -193,9 +223,15 @@ const CVReact = () => {
                   <i className="bi bi-record-circle"></i>
                 </div>
                 <div className="col">
-                  <p style={{ whiteSpace: "pre-line" }}>
-                    {resumeConfig.professionalSummary}
-                  </p>
+                  {resumeConfig.professionalSummary.map(
+                          (summaryLine: any, summaryIndex: number) => {
+                            return (
+                              <p className="mb-0" key={summaryIndex}>
+                                • {summaryLine}
+                              </p>
+                            );
+                          }
+                        )}
                 </div>
               </div>
               <div className="row mt-5">
@@ -232,7 +268,6 @@ const CVReact = () => {
                   );
                 }
               )}
-              {/* <p style={{pageBreakBefore: 'always'}}></p> */}
               <div className="row mt-5">
                 <div className="col-auto bullet pt-2">
                   <i className="bi bi-circle-fill"></i>
