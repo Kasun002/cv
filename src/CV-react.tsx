@@ -93,6 +93,42 @@ const CVReact = () => {
                   </a>
                 </div>
               </div>
+              <div className="row list-item me-5">
+                <div className="col-auto align-self-center">
+                  <div className="icon d-flex justify-content-center">
+                    <i
+                      className="bi bi-linkedin"
+                      role="img"
+                      aria-label={resumeConfig.linkedin.label}
+                    ></i>
+                  </div>
+                </div>
+                <div className="col">
+                  <a
+                    target="_blank"
+                    href={resumeConfig.linkedin.link}
+                    className="text-decoration-none"
+                  >
+                    <p>{resumeConfig.linkedin.name}</p>
+                  </a>
+                </div>
+              </div>
+              <div className="row list-item me-5">
+                <div className="col-auto align-self-center">
+                  <div className="icon d-flex justify-content-center">
+                    <i
+                      className="bi bi-calendar"
+                      role="img"
+                      aria-label="DOB"
+                    ></i>
+                  </div>
+                </div>
+                <div className="col">
+                  <a className="text-decoration-none">
+                    <p>{resumeConfig.dob}</p>
+                  </a>
+                </div>
+              </div>
               <div className="row mt-5 me-5">
                 <div className="col">
                   <p className="title">Education</p>
@@ -116,31 +152,10 @@ const CVReact = () => {
                   );
                 }
               )}
+
               <div className="row mt-5 me-5">
                 <div className="col p-0">
-                  <p className="title">Links</p>
-                </div>
-              </div>
-              {resumeConfig.links.map((link: any, linkIndex: number) => {
-                return (
-                  <div className="row record me-4" key={linkIndex}>
-                    <div className="col-auto bullet mb-5">
-                      <i className="bi bi-record-circle"></i>
-                    </div>
-                    <div className="col">
-                      <p>
-                        {link.label}:
-                        <a className="text-reset" target="_blank">
-                          {link.link}
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                );
-              })}
-              <div className="row mt-5 me-5">
-                <div className="col p-0">
-                  <p className="title">Tech Stack</p>
+                  <p className="title">Technical skills</p>
                 </div>
               </div>
               {resumeConfig.technicalSkills.map(
@@ -181,6 +196,32 @@ const CVReact = () => {
               <p
                 style={{ pageBreakBefore: "always", paddingTop: "11.8297rem" }}
               ></p>
+              <div className="row mt-5 me-5">
+                <div className="col p-0">
+                  <p className="title">Links</p>
+                </div>
+              </div>
+              {resumeConfig.links.map((link: any, linkIndex: number) => {
+                return (
+                  <div className="row record me-4" key={linkIndex}>
+                    <div className="col-auto bullet mb-5">
+                      <i className="bi bi-record-circle"></i>
+                    </div>
+                    <div className="col">
+                      <p>
+                        {link.label}:&nbsp;
+                        <a
+                          className="text-reset"
+                          target="_blank"
+                          href={link.link}
+                        >
+                          {link.name}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
               <div className="row mt-5 me-5">
                 <div className="col p-0">
                   <p className="title">Languages</p>

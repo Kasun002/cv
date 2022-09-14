@@ -5,8 +5,8 @@ const projects = [
     endDate: "Present",
     role: "Associate tech lead",
     achievements: [
-      "On-demand parcel courier app offers a convenient way to track your packages online",
-      "Application consist two main parts Client-Web and Back-office Web.Both parts developed using React with MUI and redux with type script and Back-End use Spring boot and MySQL. Playing ATL role for web-client development (React).",
+      "On-demand parcel courier app offers a convenient way to track customer packages online.",
+      "Application consist two main parts Client-Web and Backoffice Web.Both parts developed using React with MUI and redux with type script and Back-End use Spring boot and MySQL. Playing ATL role for web-client development (React).",
     ],
   },
   {
@@ -30,12 +30,12 @@ const projects = [
     ],
   },
   {
-    projectTitle: "Banking system for credit union in USA",
+    projectTitle: "Online Banking solution",
     startDate: "March 2021",
     endDate: "Jan 2022",
     role: "Senior Software Engineer(Full-Stack)",
     achievements: [
-      "Banking platform for credit union customers connected with core banking and third-party solution providers.",
+      "Online Banking solution for credit union (USA) customers to facilitate online banking and specific third-party services.",
       "Application consist of separate web and Mobile.Web and mobile based on customized JavaScript framework(Kony) and also back-end is mainly based Java framework(fabric).Mainly worked on Web and Mobile application slightly work on java back-end",
     ],
   },
@@ -45,12 +45,12 @@ const projects = [
     endDate: "Feb 2021",
     role: "Senior Software/Senior Software Engineer",
     achievements: [
-      "Mobile payment platform which enables users to utility payment, basic online banking facilities  and secure QR base payments.",
+      "Mobile payment platform which enables users to utility payment, basic online banking facilities and secure QR base payments.",
       "Mobile application front-end based on Angular 4-9, backend based on Java(Spring Boot) & MySQL & Firebase. Play Software Engineer & Senior Software Engineer roles in this project for front-end development.",
     ],
   },
   {
-    projectTitle: "BPSystem",
+    projectTitle: "BP-System",
     startDate: "June 2019",
     endDate: "Jan 2020",
     role: "Software Engineer",
@@ -75,7 +75,7 @@ const projects = [
     endDate: "Jul 2018",
     role: "Software Engineer",
     achievements: [
-      "Mobile base POS system for QR payments.",
+      "Mobile based POS system for QR payments.",
       "Mobile application front-end based on React Native admin panel based on React and back-end based on Java (Spring Boot) & MySQL.Play Senior Software Engineer role in this project for front-end development (React Native).",
     ],
   },

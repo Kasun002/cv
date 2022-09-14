@@ -12,15 +12,23 @@ const resumeReact = {
   country: "Sri Lanka",
   phone: "+94770320574",
   email: "abaywardanakasun@gmail.com",
+  dob: "05-07-1991",
+  linkedin: {
+    label: "LinkedIn",
+    link: "https://www.linkedin.com/in/kasun-lakmal-abaywardana/",
+    name: "Kasun Abaywardana",
+  },
   education: education,
   links: [
     {
-      label: "LinkedIn",
-      link: "https://www.linkedin.com/in/kasun-lakmal-abaywardana/",
-    },
-    {
       label: "GitHub",
       link: "https://github.com/Kasun002",
+      name: "github.com/Kasun002",
+    },
+    {
+      label: "Twitter",
+      link: "https://twitter.com/KasunLakmal16",
+      name: "@KasunLakmal16",
     },
   ],
   technicalSkills: [
@@ -46,7 +54,7 @@ const resumeReact = {
   ],
   interests: ["Play badminton", "Traveling", "Cooking"],
   professionalSummary: [
-    "Detail-oriented professional with exceptional interpersonal skills, team working abilities with 7 years of work experience in IT Industry. As well as motivated individual with in-depth knowledge of front-end web design & development using (React, Angular 2+), Hybrid mobile app development (Ionic, Cordova, React Native) and some experience in BE development using Node JS, Java Firebase & .net.",
+    "Detail-oriented professional having 7 years of work experience in IT Industry. Have in-depth knowledge in front-end web design & development using (React, Angular 2+), Hybrid mobile app development (Ionic, Cordova, React Native) and some experience in BE development using Node JS, Java, Firebase & .NET. A dedicated, self-learning, motivated professional, capable of working independently and is also an efficient team player with very good leadership capabilities.",
   ],
   employmentHistory: employments,
   projectHistory: projects,
