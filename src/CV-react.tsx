@@ -262,7 +262,7 @@ const CVReact = () => {
                     (summaryLine: any, summaryIndex: number) => {
                       return (
                         <p className="mb-0" key={summaryIndex}>
-                          • {summaryLine}
+                          {summaryLine}
                         </p>
                       );
                     }
@@ -348,7 +348,7 @@ const CVReact = () => {
                         <p
                           style={{
                             pageBreakBefore: "always",
-                            paddingTop: "17.8297rem",
+                            paddingTop: "15.8297rem",
                           }}
                         ></p>
                       ) : (

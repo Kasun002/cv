@@ -6,7 +6,7 @@ const projects = [
     role: "Associate tech lead",
     achievements: [
       "On-demand parcel courier app offers a convenient way to track your packages online",
-      "Application consist two main parts Client-Web and Back-office Web.Both parts developed using React with MUI and redux with type script and Back-End use Spring boot and MySQL. Playing ATL role for web-client development.",
+      "Application consist two main parts Client-Web and Back-office Web.Both parts developed using React with MUI and redux with type script and Back-End use Spring boot and MySQL. Playing ATL role for web-client development (React).",
     ],
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     role: "Associate tech lead",
     achievements: [
       "Web application which enables high-level strategic goals beside tactical initiatives insights that inform decision making for the organizations.",
-      "Web application develop using Angular 12 and vanilla-JavaScript, Back-End use .NET core and SQL server.Play ATL role for web-client development",
+      "Web application develop using Angular 12 and vanilla-JavaScript, Back-End use .NET core and SQL server.Play ATL role for web-client development (Angular 12)",
     ],
   },
   {
@@ -25,8 +25,8 @@ const projects = [
     endDate: "Sep 2021",
     role: "Senior Software Engineer",
     achievements: [
-      "Web and mobile based platform for the physically disabled peoples public to connect Roberts and handle Robot via Mobile/Web app after purchasing a time-slot.",
-      "Project back-end is based on Java spring-boot, mongo-db and web client based on React and mobile client based on flutter. Play Senior Software Engineer role for web-client development",
+      "Web and mobile based platform for the physically disabled peoples to connect roberts in public places and drive Robot via Mobile/Web app after purchasing a time-slot.",
+      "Project back-end is based on Java spring-boot, mongo-db and web client based on React and mobile client based on flutter. Play Senior Software Engineer role for web-client development (React)",
     ],
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     role: "Senior Software Engineer(Full-Stack)",
     achievements: [
       "Banking platform for credit union customers connected with core banking and third-party solution providers.",
-      "Application consist of separate web and Mobile.Web and mobile based on customized JavaScript framework(Kony) and also back-end is mainly based Java framework(fabric).Mainly worked on web and mobile application slightly work on java back-end",
+      "Application consist of separate web and Mobile.Web and mobile based on customized JavaScript framework(Kony) and also back-end is mainly based Java framework(fabric).Mainly worked on Web and Mobile application slightly work on java back-end",
     ],
   },
   {
@@ -56,7 +56,7 @@ const projects = [
     role: "Software Engineer",
     achievements: [
       "Simple Web based platform for the Business owners to create business processes and users to managing there own business process.",
-      "Web application FE based on React and back-end based on Java(Spring boot) & MySQL. Play Senior Software Engineer role in this project for front-end development.",
+      "Web application FE based on React and back-end based on Java(Spring boot) & MySQL. Play Senior Software Engineer role in this project for front-end development (React).",
     ],
   },
   {
@@ -76,7 +76,7 @@ const projects = [
     role: "Software Engineer",
     achievements: [
       "Mobile base POS system for QR payments.",
-      "Mobile application front-end based on React Native admin panel based on React and back-end based on Java (Spring Boot) & MySQL.Play Senior Software Engineer role in this project for front-end development.",
+      "Mobile application front-end based on React Native admin panel based on React and back-end based on Java (Spring Boot) & MySQL.Play Senior Software Engineer role in this project for front-end development (React Native).",
     ],
   },
   {
@@ -86,7 +86,7 @@ const projects = [
     role: "Senior Software Engineer",
     achievements: [
       "Mobile base POS system for QR payments.",
-      "Mobile application front-end based on React Native admin panel based on React and back-end based on Java (Spring Boot) & MySQL.Play Senior Software Engineer role in this project for front-end development.",
+      "Mobile application front-end based on React Native admin panel based on React and back-end based on Java (Spring Boot) & MySQL.Play Senior Software Engineer role in this project for front-end development (React Native).",
     ],
   },
   {
@@ -96,7 +96,7 @@ const projects = [
     role: "Software Engineer",
     achievements: [
       "Grade5 is a on-line examination portal for train student the grade 5 Scholarship examination.It Consist of Web and Android application.",
-      "Web application front-end based on Angular 2 module base approach and back-end based on nodejs & mongoDB.Consumer front-end app fully developed by myself.",
+      "Web application front-end based on Angular 2 module base approach and back-end based on nodejs & mongoDB.Consumer front-end app fully developed by myself (Angular 2).",
     ],
   },
   {
