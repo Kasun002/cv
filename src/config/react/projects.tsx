@@ -85,8 +85,8 @@ const projects = [
     endDate: "Jan 2019",
     role: "Senior Software Engineer",
     achievements: [
-      "Mobile base POS system for QR payments.",
-      "Mobile application front-end based on React Native admin panel based on React and back-end based on Java (Spring Boot) & MySQL.Play Senior Software Engineer role in this project for front-end development (React Native).",
+      "Mobile app for ordering foods inside the restaurants. This system is interconnected with UPay mobile wallet .",
+      "Mobile application front-end based on React Native back-end based on Java (Spring Boot) & MySQL. Play Senior Software Engineer role in this project for front-end development (React Native).",
     ],
   },
   {
