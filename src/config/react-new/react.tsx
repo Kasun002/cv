@@ -16,7 +16,7 @@ const resumeReact = {
   linkedin: {
     label: "LinkedIn",
     link: "https://www.linkedin.com/in/kasun-lakmal-abaywardana/",
-    name: "Kasun Abaywardana",
+    name: "kasun-lakmal-abaywardana",
   },
   education: education,
   links: [

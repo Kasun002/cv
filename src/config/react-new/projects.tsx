@@ -95,7 +95,7 @@ const projects = [
     endDate: "March 2017",
     role: "Associate Software Engineer/Software Engineer",
     achievements: [
-      "Grade5 is a on-line examination portal for train student the grade 5 Scholarship examination.It Consist of Web and Android application.",
+      "Grade 5 is an online examination portal for train the students who wish to participate grade 05 - Scholarship examination in SriLanka. It consists of web & android application.",
       "The web application's front-end is developed using Angular 2 with a module-based approach, and the back-end is built on Node.js and MongoDB. I fully developed the consumer front-end app using Angular 2 in this project.",
     ],
   },

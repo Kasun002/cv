@@ -70,7 +70,7 @@ const CVReactNew = () => {
                     href={`tel:${resumeConfig.phone}`}
                     className="text-decoration-none"
                   >
-                    <p>{resumeConfig.phone}</p>
+                    <p className="link-color">{resumeConfig.phone}</p>
                   </a>
                 </div>
               </div>
@@ -89,7 +89,7 @@ const CVReactNew = () => {
                     href={`mailto:${resumeConfig.email}`}
                     className="text-decoration-none"
                   >
-                    <p>{resumeConfig.email}</p>
+                    <p className="link-color">{resumeConfig.email}</p>
                   </a>
                 </div>
               </div>
@@ -109,7 +109,7 @@ const CVReactNew = () => {
                     href={resumeConfig.linkedin.link}
                     className="text-decoration-none"
                   >
-                    <p>{resumeConfig.linkedin.name}</p>
+                    <p className="link-color">{resumeConfig.linkedin.name}</p>
                   </a>
                 </div>
               </div>
@@ -264,7 +264,7 @@ const CVReactNew = () => {
               )}
               <div className="row mt-5 me-5">
                 <div className="col p-0">
-                  <p className="title">Referees</p>
+                  <p className="title">References</p>
                 </div>
               </div>
               {resumeConfig.referees.map(
