@@ -26,9 +26,9 @@ const resumeReact = {
       name: "github.com/Kasun002",
     },
     {
-      label: "Twitter",
-      link: "https://twitter.com/KasunLakmal16",
-      name: "@KasunLakmal16",
+      label: "Medium",
+      link: "https://medium.com/@abaywardanakasun",
+      name: "@abaywardanakasun",
     },
   ],
   technicalSkills: [
@@ -53,7 +53,7 @@ const resumeReact = {
     `Mr Jeewaka Iroshan,</br>Senior Architect (Axiata Digital Labs),</br>jeewaka@axiata.lk,</br>+94773687753`,
     `Dr. S.S.P. Mathara Arachchi,</br>Senior Lecturer (University of Colombo),</br>ssp@ucsc.cmb.ac.lk,</br>+94718328650`,
   ],
-  interests: ["Play badminton", "Traveling", "Cooking"],
+  interests: ["Playing badminton", "Traveling", "Cooking"],
   professionalSummary: [
     "Detail-oriented professional having 7 years of work experience in the IT Industry. Have in-depth knowledge in modern web design & development Frontend using React JS & Angular 2+, Backend development using Node JS with AWS Lambda, Firebase & MongoDB, and Hybrid mobile app development (Ionic, Cordova, React Native). A dedicated, self-learning, motivated professional, capable of working independently and an efficient team player with excellent leadership capabilities.",
   ],

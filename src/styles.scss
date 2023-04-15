@@ -214,6 +214,8 @@ span {
 
 .link-color {
   color: #551A8B !important;
+  text-decoration: underline;
+  text-decoration-color:#551A8B;
 }
 
 @media print {
