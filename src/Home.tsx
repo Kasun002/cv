@@ -8,6 +8,9 @@ const Home = () => {
         <Link to="/react">React</Link>
       </div>
       <div>
+        <Link to="/react-new">React New</Link>
+      </div>
+      <div>
         <Link to="/angular">Angular</Link>
       </div>
     </>
