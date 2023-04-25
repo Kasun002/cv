@@ -1,7 +1,7 @@
 const projects = [
   {
     projectTitle: "xGoWhere",
-    startDate: "Jan 2023",
+    startDate: "Dec 2022",
     endDate: "Present",
     role: "Senior software engineer",
     achievements: [

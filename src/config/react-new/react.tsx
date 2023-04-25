@@ -41,6 +41,8 @@ const resumeReact = {
     "Cordova, React Native",
     "Bamboo CI/CD, Bitbucket, Azure devops",
     "<strong>JIRA, Confluence, Planing Poker</strong>",
+    "<strong>Agile, Scrum</strong>",
+    "Unit testing & e2e testing",
     "VS Code, Xcode, Android Studio",
   ],
   professionalSkills: [
