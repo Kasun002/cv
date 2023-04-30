@@ -130,6 +130,28 @@ const CVReactNew = () => {
                 </div>
               </div>
               <div className="row mt-5 me-5">
+                <div className="col p-0">
+                  <p className="title">Technical skills</p>
+                </div>
+              </div>
+              {resumeConfig.technicalSkills.map(
+                (skill: any, skillIndex: number) => {
+                  return (
+                    <div className="row" key={skillIndex}>
+                      <div className="col">
+                        <ul className="ms-2">
+                          <li
+                            className="pb-2"
+                            dangerouslySetInnerHTML={{ __html: skill }}
+                          ></li>
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                }
+              )}
+
+              <div className="row mt-5 me-5">
                 <div className="col">
                   <p className="title">Education</p>
                 </div>
@@ -153,28 +175,9 @@ const CVReactNew = () => {
                 }
               )}
 
-              <div className="row mt-5 me-5">
-                <div className="col p-0">
-                  <p className="title">Technical skills</p>
-                </div>
-              </div>
-              {resumeConfig.technicalSkills.map(
-                (skill: any, skillIndex: number) => {
-                  return (
-                    <div className="row" key={skillIndex}>
-                      <div className="col">
-                        <ul className="ms-2">
-                          <li
-                            className="pb-2"
-                            dangerouslySetInnerHTML={{ __html: skill }}
-                          ></li>
-                        </ul>
-                      </div>
-                    </div>
-                  );
-                }
-              )}
-
+              <p
+                style={{ pageBreakBefore: "always", paddingTop: "11.8297rem" }}
+              ></p>
               <div className="row mt-5 me-5">
                 <div className="col p-0">
                   <p className="title">Soft Skills</p>
@@ -193,9 +196,6 @@ const CVReactNew = () => {
                   );
                 }
               )}
-              <p
-                style={{ pageBreakBefore: "always", paddingTop: "11.8297rem" }}
-              ></p>
               <div className="row mt-5 me-5">
                 <div className="col p-0">
                   <p className="title">Links</p>
