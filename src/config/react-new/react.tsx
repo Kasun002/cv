@@ -39,7 +39,7 @@ const resumeReact = {
     "<strong>AWS Lambda</strong>, API Gateway,",
     "<strong>JIRA, Confluence, Planing Poker</strong>",
     "<strong>Agile, Scrum</strong>",
-    "mongodb, Firebase realtime DB, AWS S3",
+    "mongodb, Firebase realtime DB, AWS S3, Redis",
     "Cordova, Ionic, React Native",
     "Bamboo CI/CD, Bitbucket, Azure devops",
     "Unit testing & e2e testing (jest/react testing-library)",
