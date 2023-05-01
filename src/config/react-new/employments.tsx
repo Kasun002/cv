@@ -14,7 +14,7 @@ const employments = [
     city: "Colombo, Sri Lanka",
   },
   {
-    jobTitle: "Senior Software Engineer / Full-Stack",
+    jobTitle: "Senior Software Engineer",
     startDate: "Mar 2021",
     endDate: "Feb 2022",
     employer: "Softcodeit Solutions (Pvt) Ltd",
