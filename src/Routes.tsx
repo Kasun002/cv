@@ -7,7 +7,7 @@ const router = createBrowserRouter(
             path: "/",
             element: <CVReactNew />
         }],
-    { basename: '/cv-template' }
+    { basename: '/cv' }
 );
 
 const AppRoutes = () => {
