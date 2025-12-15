@@ -106,6 +106,7 @@ const CVReactNew = () => {
                 <div className="col">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href={resumeConfig.linkedin.link}
                     className="text-decoration-none"
                   >
@@ -213,6 +214,7 @@ const CVReactNew = () => {
                         <a
                           className="text-reset"
                           target="_blank"
+                          rel="noreferrer"
                           href={link.link}
                         >
                           {link.name}
